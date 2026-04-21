@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Work Gallery | [Your Company Name] — Garage Door Service in [City]</title>
+  <meta name="description" content="Browse photos of completed garage door jobs by [Your Company Name] in [Service Region]. Installations, repairs, and upgrades — see the quality for yourself." />
+  <meta property="og:title" content="Our Work Gallery | [Your Company Name]" />
+  <meta property="og:description" content="Photos of completed garage door jobs in [Service Region]. See the quality of our work before you call." />
+  <meta property="og:image" content="https://placehold.co/1200x630/1f2933/ffffff?text=Our+Work+Gallery" />
+  <meta property="og:url" content="[https://yourdomain.com]/gallery.html" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="[https://yourdomain.com]/gallery.html" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { corePlugins: { preflight: false } }</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home",    "item": "[https://yourdomain.com]/index.html" },
+      { "@type": "ListItem", "position": 2, "name": "Gallery", "item": "[https://yourdomain.com]/gallery.html" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo" aria-label="[Your Company Name] — Home">
+        <span class="logo-name">[Your Company Name]</span>
+        <span class="logo-tagline">Repair · Install · Service</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-desktop">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="service-areas.html">Service Areas</a></li>
+          <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+          <li><a href="testimonials.html">Reviews</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:[Phone Number]" class="header-phone" aria-label="Call [Phone Number]">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.84a16 16 0 0 0 6 6l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          [Phone Number]
+        </a>
+        <a href="quote.html" class="btn btn-primary btn-sm">Get a Free Quote</a>
+        <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="mobile-nav" aria-label="Toggle navigation menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="service-areas.html">Service Areas</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        <li><a href="testimonials.html">Reviews</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="mobile-cta">
+        <a href="tel:[Phone Number]" class="btn btn-outline-white">Call [Phone Number]</a>
+        <a href="quote.html" class="btn btn-primary">Get a Free Quote</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-hero">
+      <div class="container">
+        <nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="index.html">Home</a></li><li>Gallery</li></ol></nav>
+        <h1>Our Work</h1>
+        <p style="color:rgba(255,255,255,0.75);max-width:560px;margin-top:0.75rem;font-size:1.0625rem;">Real jobs completed by our team in [Service Region]. Every photo is a real customer's home — no stock images.</p>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" aria-labelledby="gallery-heading">
+      <div class="container">
+        <span class="sr-only" id="gallery-heading">Photo gallery of completed jobs</span>
+
+        <!-- Filter tabs -->
+        <div class="gallery-filters" role="group" aria-label="Filter gallery by service type">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All Work</button>
+          <button class="filter-btn" data-filter="service-one" aria-pressed="false">Service One</button>
+          <button class="filter-btn" data-filter="service-two" aria-pressed="false">Service Two</button>
+          <button class="filter-btn" data-filter="service-three" aria-pressed="false">Service Three</button>
+        </div>
+
+        <!-- Masonry grid -->
+        <div class="masonry-grid" role="list" aria-label="Gallery images — click to enlarge">
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x600/1f2933/ffffff?text=Job+Photo+1" data-alt="Completed garage door installation — replace with your job photo" data-category="service-one">
+            <img src="https://placehold.co/600x600/1f2933/ffffff?text=Job+Photo+1" alt="Completed garage door installation — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x800/3a4754/ffffff?text=Job+Photo+2" data-alt="Close-up hardware detail — replace with your job photo" data-category="service-two">
+            <img src="https://placehold.co/600x800/3a4754/ffffff?text=Job+Photo+2" alt="Close-up hardware detail — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x600/c0392b/ffffff?text=Job+Photo+3" data-alt="Before and after comparison — replace with your job photo" data-category="service-one">
+            <img src="https://placehold.co/600x600/c0392b/ffffff?text=Job+Photo+3" alt="Before and after comparison — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x800/27ae60/ffffff?text=Job+Photo+4" data-alt="Technician at work — replace with your job photo" data-category="service-three">
+            <img src="https://placehold.co/600x800/27ae60/ffffff?text=Job+Photo+4" alt="Technician at work — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x600/1f2933/c0392b?text=Job+Photo+5" data-alt="Residential driveway with new door — replace with your job photo" data-category="service-one">
+            <img src="https://placehold.co/600x600/1f2933/c0392b?text=Job+Photo+5" alt="Residential driveway with new door — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x600/3a4754/c0392b?text=Job+Photo+6" data-alt="Commercial door installation — replace with your job photo" data-category="service-two">
+            <img src="https://placehold.co/600x600/3a4754/c0392b?text=Job+Photo+6" alt="Commercial door installation — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x800/11181f/ffffff?text=Job+Photo+7" data-alt="Opener unit detail shot — replace with your job photo" data-category="service-three">
+            <img src="https://placehold.co/600x800/11181f/ffffff?text=Job+Photo+7" alt="Opener unit detail shot — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x600/c0392b/1f2933?text=Job+Photo+8" data-alt="Curb appeal shot — replace with your job photo" data-category="service-one">
+            <img src="https://placehold.co/600x600/c0392b/1f2933?text=Job+Photo+8" alt="Curb appeal shot, house exterior — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x600/27ae60/1f2933?text=Job+Photo+9" data-alt="Damaged vs repaired comparison — replace with your job photo" data-category="service-two">
+            <img src="https://placehold.co/600x600/27ae60/1f2933?text=Job+Photo+9" alt="Damaged vs repaired comparison — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x800/1f2933/27ae60?text=Job+Photo+10" data-alt="Evening job site photo — replace with your job photo" data-category="service-three">
+            <img src="https://placehold.co/600x800/1f2933/27ae60?text=Job+Photo+10" alt="Evening job site photo — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x600/3a4754/ffffff?text=Job+Photo+11" data-alt="Customer driveway lifestyle shot — replace with your job photo" data-category="service-one">
+            <img src="https://placehold.co/600x600/3a4754/ffffff?text=Job+Photo+11" alt="Customer driveway lifestyle shot — replace with your job photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+          <div class="masonry-item" role="listitem" data-src="https://placehold.co/600x600/c0392b/3a4754?text=Job+Photo+12" data-alt="Service truck on a job site — replace with your job photo" data-category="service-two">
+            <img src="https://placehold.co/600x600/c0392b/3a4754?text=Job+Photo+12" alt="Branded service truck on a job site — replace with your photo" loading="lazy" />
+            <div class="overlay" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+      <div class="lightbox-inner">
+        <img id="lightbox-img" src="" alt="" />
+        <button id="lightbox-close" class="lightbox-close" aria-label="Close lightbox">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <button id="lightbox-prev" class="lightbox-prev" aria-label="Previous image">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button id="lightbox-next" class="lightbox-next" aria-label="Next image">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <section class="cta-band" aria-labelledby="gallery-cta-heading">
+      <div class="container">
+        <h2 id="gallery-cta-heading">Like What You See? Let's Talk.</h2>
+        <p>Every project starts with a free, no-obligation estimate. Call or request yours online today.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;">
+          <a href="quote.html" class="btn btn-outline-white btn-lg">Request a Free Quote</a>
+          <a href="tel:[Phone Number]" class="btn btn-lg" style="background:#fff;color:var(--color-accent);">Call [Phone Number]</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="site-logo"><span class="logo-name">[Your Company Name]</span><span class="logo-tagline">Repair · Install · Service</span></a>
+          <p>Locally owned garage door experts serving [Service Region] since [Year Founded]. Licensed, insured, and committed to getting the job done right.</p>
+          <div class="social-links mt-6">
+            <a href="#" class="social-link" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" class="social-link" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" class="social-link" aria-label="Google Business Profile"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="service-areas.html">Service Areas</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="testimonials.html">Reviews</a></li><li><a href="faq.html">FAQ</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul><li><a href="services.html#service-one">Service One</a></li><li><a href="services.html#service-two">Service Two</a></li><li><a href="services.html#service-three">Service Three</a></li><li><a href="services.html#service-four">Service Four</a></li><li><a href="services.html#service-five">Service Five</a></li><li><a href="services.html#service-six">Service Six</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.84a16 16 0 0 0 6 6l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:[Phone Number]">[Phone Number]</a></div>
+          <div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:[Email]">[Email]</a></div>
+          <div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Mon–Sun 7am–9pm · 24/7 Emergency</span></div>
+          <p style="font-size:0.8125rem;color:rgba(255,255,255,0.5);margin-top:0.5rem;">Licensed &amp; Insured · License #[License #]</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© [Year] [Your Company Name]. All rights reserved.</p>
+        <div style="display:flex;gap:1rem;"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="sitemap.xml">Sitemap</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
