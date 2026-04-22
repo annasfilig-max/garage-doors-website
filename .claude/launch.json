@@ -4,7 +4,7 @@
     {
       "name": "garage-doors-template",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "5180", "--directory", "C:\\Users\\sugul\\Downloads\\Claude\\garage-doors-template"],
+      "runtimeArgs": ["-m", "http.server", "5180", "--directory", "C:\\Users\\sugul\\Downloads\\Claude\\garage-doors-website"],
       "port": 5180
     }
   ]
